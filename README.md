@@ -11,3 +11,11 @@ one is the master node and the other is the worker node. For more details, pleas
 # Monitor SpringBoot Application by prometheus
 
 Deploy the prometheus on the kubernetes and monitor Spring boot Application.
+
+# yaml rule 
+
+Introduction to yaml writing rules
+
+# static pod
+
+Introducing the use of static pod
