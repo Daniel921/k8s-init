@@ -19,3 +19,7 @@ Introduction to yaml writing rules
 # static pod
 
 Introducing the use of static pod
+
+# pod hook
+
+Introducing the k8s pod hook
