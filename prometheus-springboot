@@ -75,7 +75,7 @@ management.metrics.tags.application=${spring.application.name}
 
 
 3.3 设置application
-修改启动类，如下所示.
+# 修改启动类，如下所示.
 @SpringBootApplication
 public class Springboot2PrometheusApplication {
 
@@ -120,7 +120,7 @@ scrape_configs:
   - job_name: 'prometheus'
     static_configs:
     - targets: ['127.0.0.1:9090']
-###以下内容为SpringBoot应用配置
+###以下内容为SpringBoot应用的配置
   - job_name: 'springboot_prometheus'
     scrape_interval: 5s
     metrics_path: '/actuator/prometheus'
