@@ -77,4 +77,5 @@ spec:
   - name: message
     hostPath:
       path: /tmp
-另外Hook调用的日志没有暴露个给 Pod 的 event，所以只能通过describe命令来获取，如果有错误将可以看到FailedPostStartHook或FailedPreStopHook这样的 event。
+另外Hook调用的日志没有暴露个给 Pod 的 event，所以只能通过describe命令来获取，
+如果有错误将可以看到FailedPostStartHook或FailedPreStopHook这样的 event。
