@@ -31,3 +31,7 @@ Introducing the k8s pod health
 # init container
 
 Introducing the k8s init container
+
+# pod log
+
+Introducing the k8s log
