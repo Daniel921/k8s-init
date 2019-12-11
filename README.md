@@ -27,3 +27,7 @@ Introducing the k8s pod hook
 # pod health
 
 Introducing the k8s pod health 
+
+# init container
+
+Introducing the k8s init container
