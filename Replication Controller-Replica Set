@@ -81,7 +81,7 @@ Replication Set简称RS，随着Kubernetes的高速发展，官方已经推荐�
 
 kubectl命令行工具中关于RC的大部分命令同样适用于我们的RS资源对象。不过我们也很少会去单独使用RS，它主要被Deployment这个更加高层的资源对象使用，除非用户需要自定义升级功能或根本不需要升级Pod，在一般情况下，我们推荐使用Deployment而不直接使用Replica Set。
 
-最后我们总结下关于RC/RS的一些特性和作用吧：
+最后我们总结下关于RC和RS的一些特性和作用吧：
 
 大部分情况下，我们可以通过定义一个RC实现的Pod的创建和副本数量的控制
 RC中包含一个完整的Pod定义模块（不包含apiversion和kind）
