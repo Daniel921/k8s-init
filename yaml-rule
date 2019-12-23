@@ -1,4 +1,4 @@
-YAML 文件
+##YAML 文件规则
 我们在安装 kubernetes 集群的时候使用了一些 YAML 文件来创建相关的资源，但是很多同学对 YAML 文件还是非常陌生。所以我们先来简单看一看 YAML 文件是如何工作的，并使用 YAML 文件来定义一个 kubernetes pod，然后再来定义一个 kubernetes deployment吧。
 
 YAML 基础
