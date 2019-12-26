@@ -4,7 +4,7 @@ Prometheus是一个根据应用的metrics来进行监控的开源工具。相信
 
 2.有关Grafana
 Grafana是一个开源监控利器，如图所示。
-使用Grafana监控很高大上，提供了很多可视化的图标。
+使用Grafana监控很高大上，提供了很多可视化的图标，用来检查健康状态。
 官网地址：https://grafana.com/
 
 3.SpringBoot使用Prometheus
