@@ -125,7 +125,7 @@ spec:
 从上面的YAML文件我们可以看出readiness probe的配置跟liveness probe很像，基本上一致的。唯一的不同是使用readinessProbe而不是livenessProbe。两者如果同时使用的话就可以确保流量不会到达还未准备好的容器，准备好过后，如果应用程序出现了错误，则会重新启动容器。
 
 另外除了上面的initialDelaySeconds和periodSeconds属性外，探针还可以配置如下几个参数：
-
+###
 * timeoutSeconds：探测超时时间，默认1秒，最小1秒。
 * successThreshold：探测失败后，最少连续探测成功多少次才被认定为成功。默认是 1，但是如果是`liveness`则必须是 1。最小值是 1。
 * failureThreshold：探测成功后，最少连续探测失败多少次才被认定为失败。默认是 3，最小值是 1。
