@@ -18,7 +18,7 @@ Introduction to yaml writing rules
 
 # static pod
 
-Introducing the use of static pod
+Introducing the use of static pod.
 
 # pod hook
 
